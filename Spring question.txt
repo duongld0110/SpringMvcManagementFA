@@ -1,0 +1,17 @@
+1.Spring là gì?
+Spring là một open source framework dành cho Java Enterprise. Core feature của Spring có thể dùng để xây dựng bất cứ Java application nào, các extensions của Spring có thể được sử dụng cho việc xây dựng web application trên nền tảng Java EE. Spring framework cũng hướng tới mục tiêu làm cho việc phát triển các ứng dụng trên nền tảng Java EE dễ dàng hơn và thúc đẩy việc lập trình tốt hơn bằng model POJO-based.
+
+2. Sự khác nhau giữa BeanFactory và ApplicationContext:
+BeanFactory và ApplicationContext đều là các interface thực hiện IoC Container. ApplicationContext được xây dựng BeanFactory nhưng nó có thêm một số chức năng mở rộng như tích hợp với Spring AOP, xử lý message, context cho web application.
+
+13.Spring IoC container
+Spring IoC chịu trách nhiệm cho việc tạo ra các object, quản lý chúng với các DI và wiring chúng lại với nhau, cài đặt chúng, cũng như quản lý lifecycle của chúng.
+
+11. Inversion of Control (IoC)
+sẽ không tạo ra object nhưng bạn sẽ phải mô tả làm sao để chúng được tạo ra., thay vào đó sử dụng các object khác thông qua việc truyền vào từ bên ngoài .vd các thuộc tính thuộc tính class đc truyền vào qua constructor hay setter thay vì khởi tạo trực tiếp trong class đc truyền vào class này trong  file config.Sau khi khai báo tất cả thì IoC container sẽ làm nhiệm vụ hook tất cả lại với nhau
+
+12 Dependency Injection (DI) trong Spring .
+là 1 dạng của IOC mà các đối tượng truyền vào 1 object qua construcor/setter/service lookups (có thể thông qua các name space hoặc configuration)
+IOC container là 1 dạng cụ thể của DI và DI là 1 dạng cụ thể của IOC
+là một mẫu thiết kế được sử dụng để loại bỏ sự phụ thuộc giữa các mã chương trình, giúp cho việc quản lý và kiểm thử ứng dụng dễ dàng hơn. Dependency Injection làm cho mã chương trình ít bị phụ thuộc vào nhau hơn.
+
